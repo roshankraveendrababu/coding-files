@@ -1,0 +1,70 @@
+A carry is a digit that is transferred to left if sum of digits exceeds 9 while adding two numbers from right-to-left one digit at a time.
+You are required to implement the following function.
+Int NumberOfCarries(int num1 , int num2);
+
+The function accepts two numbers ‘num1’ and ‘num2’ as its arguments. You are required to calculate and return the total number of carries generated while adding digits of two numbers ‘num1’ and ‘ num2’.
+
+Assumption: num1, num2>=0
+
+Example:
+Input
+Num 1: 451
+Num 2: 349
+
+Output
+2
+
+Explanation:
+Adding ‘num 1’ and ‘num 2’ right-to-left results in 2 carries since ( 1+9) is 10. 1 is carried and (5+4=1) is 10, again 1 is carried. Hence 2 is returned.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In an array a superior element is one which is greater than all elements to its right. The rightmost element will always be considered as a superior element. You are given a function,
+int FindNumber Of Superior Elements(int arr, int n);
+The function accepts an integer array 'arr' and its length 'n'. Implement the function to find and return the number of superior elements in array 'arr'.
+Assumptions:
+1. n > 0.
+2. Array index starts from 0.
+Example:
+Input:
+arr: 7 9 5 2 8 7
+Output:
+3
+Explanation:
+
+9 is greater than all the elements to its right, 8 is greater than element to its right and 7 is the rightmost element. Hence total 3 superior elements.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+Problem statement: Moving Apples
+There are N number of baskets, where the basket contains  apples.
+We want to move apples between baskets so that all baskets have the same number of apples. What is the minimum number of apples that must be moved?
+It is guaranteed that there exists a way to move apples so as to have an equal number of apples in each basket
+Input Specification:
+inpu t: N, denoting the Number of Baskets
+input2: array representing the number of apples in the ith basket
+Output Specification:
+Return the minimum number of apples that must be moved so that all baskets have the same number of apples
+Example 1:
+input1: 2
+input2: (1,3)
+Output: 1
+Explanation:
+There are 2 baskets with first contaming 1 apple and second containing 3 apples
+If we shift one apple from the second container to the first container then both will have 2 apples So only one apple was required to move Hence the output is 1
+
+7
+10 8 12  7 10 4  5
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Write a program to print the way we read a phone number
+
+Samples:
+9442161065
+
+Nine Double Four Two One Six One Zero Six Five
+
+
+9994466665
+
+Triple Nine Double Four Double Six Double Six Five
+
+9999999999
+
+Triple Nine Triple Nine Double Nine Double Nine
+

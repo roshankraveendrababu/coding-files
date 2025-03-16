@@ -1,0 +1,306 @@
+Problem 1: Add Two Numbers in Base K
+Description:
+Given two numbers as strings in base K, return their sum as a string in base K.
+
+Examples:
+
+Input: num1 = "101", num2 = "11", K = 2
+Output: "1000"
+Input: num1 = "123", num2 = "77", K = 10
+Output: "200"
+
+Constraints:
+
+2 ≤ 𝐾 ≤ 36
+1 ≤ len(num1),len(num2) ≤ 100
+
+
+Solution Link: GFG Base Addition
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Problem 2: Convert from Base A to Base B
+Description:
+Given a number num as a string in base A, convert it to base B.
+
+Examples:
+
+Input: num = "101", A = 2, B = 10
+Output: "5"
+Input: num = "1A", A = 16, B = 2
+Output: "11010"
+
+
+Constraints:
+
+2 ≤ 𝐴 , 𝐵 ≤ 36
+
+1 ≤ len(num) ≤ 100
+
+Solution Link: GFG Base Conversion
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Problem 3: Multiply Numbers in Base K
+Description:
+Given two numbers as strings in base K, return their product as a string in base K.
+
+Examples:
+
+Input: num1 = "101", num2 = "11", K = 2
+Output: "1111"
+Input: num1 = "15", num2 = "3", K = 10
+Output: "45"
+
+
+Constraints:
+2≤K≤36
+
+1≤len(num1),len(num2)≤100
+
+Solution Link: StackOverflow Base Multiplication
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Problem 4: Add Binary
+Description:
+Given two binary strings, return their sum as a binary string.
+
+Examples:
+
+Input: a = "11", b = "1"
+Output: "100"
+Input: a = "1010", b = "1011"
+Output: "10101"
+Constraints:
+
+
+1≤len(a),len(b)≤10 ** 4
+ 
+a and b consist of '0' or '1' only.
+
+Solution Link: Add Binary Solution
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Problem 5: Multiply Strings
+Description:
+Given two numbers represented as strings, return the product as a string.
+
+Examples:
+
+Input: num1 = "2", num2 = "3"
+Output: "6"
+Input: num1 = "123", num2 = "456"
+Output: "56088"
+Constraints:
+
+1≤len(num1),len(num2)≤200
+
+num1 and num2 are digits only.
+
+Solution Link: Multiply Strings Solution
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Problem 6: Check Palindromic in Base K
+Description:
+Check if a number num is a palindrome when converted to base K.
+
+Examples:
+
+Input: num = 121, K = 10
+Output: True
+Input: num = 10, K = 2
+Output: False
+
+Constraints:
+1≤num≤10 **6
+ 
+
+2≤K≤36
+
+Solution Link: Base K Palindrome
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Problem 7: Sum of Digits in Base N
+Description:
+Given a number num in decimal, return the sum of its digits when converted to base N.
+
+Examples:
+
+Input: num = 10, N = 2
+Output: 2
+Input: num = 255, N = 16
+Output: 15
+
+Constraints:
+
+
+1≤num≤10 **9
+ 
+2≤N≤36
+Solution Link: Digit Sum in Base
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Problem 8: Integer to Roman
+Description:
+Convert an integer to its Roman numeral representation.
+
+Examples:
+
+Input: num = 3
+Output: "III"
+Input: num = 58
+Output: "LVIII"
+
+
+Constraints:
+
+1≤num≤3999
+
+Solution Link: Integer to Roman Solution
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Problem 9: Roman to Integer
+Description:
+Convert a Roman numeral to an integer.
+
+Examples:
+
+Input: s = "III"
+Output: 3
+Input: s = "LVIII"
+Output: 58
+
+Constraints:
+
+
+1≤len(s)≤15
+
+s is a valid Roman numeral.
+Solution Link: Roman to Integer Solution
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Problem 10: XOR in Base N
+Description:
+Perform XOR operation on two numbers represented in base N and return the result in base N.
+
+Examples:
+
+Input: num1 = "101", num2 = "110", N = 2
+Output: "011"
+Input: num1 = "3", num2 = "5", N = 10
+Output: "6"
+
+Constraints:
+
+2≤N≤36
+1≤len(num1),len(num2)≤100
+
+
+Solution Link: Bitwise Operations
+------------------------------------------------------------------------------------------------------------------------------------------
+Problem 11: Subtract Two Numbers in Base K
+Description:
+Given two numbers as strings in base K, return their difference as a string in base K. Assume the first number is greater than or equal to the second number.
+
+Examples:
+
+Input: num1 = "1010", num2 = "10", K = 2
+Output: "1000"
+Input: num1 = "200", num2 = "123", K = 10
+Output: "77"
+
+Constraints:
+
+2≤K≤36
+
+1≤len(num1),len(num2)≤100
+
+Solution Link: Subtract Numbers in Base K
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Problem 12: Find Nth Digit in Base K
+Description:
+Given a number num in decimal, convert it to base K and find the n-th digit in the resulting representation (1-based index).
+
+Examples:
+
+Input: num = 10, K = 2, n = 2
+Output: "0"
+Input: num = 255, K = 16, n = 1
+Output: "F"
+
+
+Constraints:
+
+1≤num≤10 **9
+
+2≤K≤36
+
+1≤n≤len(Base K Representation of num)
+
+Solution Link: Find Nth Digit in Base K
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Problem 13: Rearrange Digits in Base K to Form Largest Number
+Description:
+Given a number num as a string in base K, rearrange its digits to form the largest possible number in base K.
+
+Examples:
+
+Input: num = "1010", K = 2
+Output: "1100"
+Input: num = "ABC123", K = 16
+Output: "CBA321"
+
+Constraints:
+
+2≤K≤36
+
+1≤len(num)≤100
+
+Solution Link: Largest Number Rearrangement
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Problem 14: Check Cyclic Property in Base K
+Description:
+A number is cyclic in base K if multiplying it by integers  1,2,3,…,n produces permutations of its digits in base K. Determine if a given number in base K is cyclic.
+
+Examples:
+
+Input: num = "142857", K = 10
+Output: True
+Input: num = "101", K = 2
+Output: False
+
+
+Constraints:
+
+2≤K≤36
+
+1≤len(num)≤100
+
+Solution Link: Check Cyclic Property
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Problem 15: Compute Modulus in Base K
+Description:
+Given a number num as a string in base K and an integer m in decimal, return the remainder of num divided by m in decimal.
+
+Examples:
+
+Input: num = "1101", K = 2, m = 3
+Output: 2
+Input: num = "AB", K = 16, m = 5
+Output: 1
+
+
+Constraints:
+
+2≤K≤36
+
+1≤len(num)≤100
+
+1≤m≤10 **9
+ 
+Solution Link: Compute Modulus in Base K
